@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-require "pp"
+require 'pp'
 
 # Call the method directors_database to retrieve the NDS
 
@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   spielberg_movies = directors_database[0][:movies]
   
   while index < spielberg_movies.length do
-    spielberg_titles = spielberg_movies[index][:title]
+    spielberg_titles = spielberg_movies[:title]
     i += 1
   end
   puts spielberg_titles
