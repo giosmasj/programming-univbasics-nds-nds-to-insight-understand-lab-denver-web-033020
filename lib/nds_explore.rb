@@ -16,5 +16,5 @@ def print_first_directors_movie_titles
   while index < spielberg_titles.length do
     i += 1
   end
-  puts spielberg_titles
+  puts pp spielberg_titles
 end
