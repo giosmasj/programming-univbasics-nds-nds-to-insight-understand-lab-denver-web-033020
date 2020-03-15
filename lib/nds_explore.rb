@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   index = 0
-  spielberg_titles = directors_database[0][:movies][:title]
+  spielberg_titles = directors_database[index][:movies][:title]
   
   while index < spielberg_titles.length do
     i += 1
